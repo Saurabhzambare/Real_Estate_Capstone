@@ -130,7 +130,7 @@ The notebook records a [historical Tableau Public dashboard link](https://public
 
 5. Open `notebooks/real_estate_capstone.ipynb` and run it from the `notebooks/` directory so its relative data paths resolve correctly.
 
-This is an archived learning project created with older library versions. Some cells may require compatibility updates when run with modern packages.
+This is an archived learning project created with older library versions. Limited compatibility fixes have been applied, but the complete notebook has not yet been comprehensively modernized or revalidated in a fully pinned current environment. Legacy APIs may still require updates when run with modern packages.
 
 ## Historical Modeling Result
 
