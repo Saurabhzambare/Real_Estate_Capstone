@@ -1,0 +1,17 @@
+# IDE settings
+.idea/
+.vscode/
+
+# Jupyter and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.env
+.venv/
+venv/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
