@@ -21,6 +21,8 @@ The tracked training and test CSV files contain geographic observations and vari
 
 The notebook treats `UID` as the observation identifier and sets it as the index during preparation. The original external data source is not explicitly documented in this archived project repository.
 
+See the [data and feature dictionary](docs/DATA_DICTIONARY.md) for the modern model's inputs, field interpretation, and availability limits. The [evaluation summary](docs/EVALUATION_SUMMARY.md) links the recorded comparisons and holdout checks.
+
 ## Analysis Workflow
 
 ### Data preparation
