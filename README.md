@@ -1,5 +1,15 @@
 # Real Estate & Mortgage Analytics Capstone
 
+## Results at a glance
+
+![Recorded five-fold regression model comparison and primary holdout metrics](docs/images/model_comparison.png)
+
+The modernized companion compares a mean baseline, Linear Regression, Ridge and Random Forest using training-only five-fold cross-validation. Random Forest was selected before the primary holdout evaluation: **R² 0.8419**, **RMSE 252.27**, **11,432 observations**. These are offline project results, with train/holdout overlap and geographic-validation limitations documented below.
+
+[Evaluation summary](docs/EVALUATION_SUMMARY.md) · [Recorded model comparison](reports/model_comparison.csv) · [Modern notebook](notebooks/real_estate_modeling_modernized.ipynb) · [Tableau workbook](tableau/real_estate_dashboard.twbx)
+
+The figure is generated from the committed evaluation tables; it is not a screenshot of a live Tableau dashboard.
+
 ## Project Overview
 
 This archived capstone analyzes U.S. geographic, housing, mortgage, income, and demographic data in a banking and mortgage analytics scenario. It combines data preparation, exploratory data analysis, geographic analysis, feature engineering, factor analysis, regression modeling, and Tableau reporting. It is a learning project, not a production banking system.
